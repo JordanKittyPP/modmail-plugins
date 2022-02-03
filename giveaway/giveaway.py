@@ -428,7 +428,7 @@ class GiveawayPlugin(commands.Cog):
                 )
                 await message.edit(embed=embed)
                 await ctx.channel.send(
-                    f"🎉 Congratulations {winners_text}, you have won **{embed.title}**!"
+                    f"🎉 Congratulations {winners_text}, you have won **{embed.title}**! n/testtttt"
                 )
                 del winners_text, winners, winners_count, reacted_users, embed
                 break
